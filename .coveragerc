@@ -1,0 +1,16 @@
+[run]
+source = observedstruct
+branch = True
+dynamic_context = test_function
+data_file = /tmp/observedstruct/.coverage
+
+[report]
+fail_under = 100
+precision = 2
+show_missing = True
+skip_covered = True
+skip_empty = True
+
+[html]
+show_contexts = True
+directory = /tmp/observedstruct/htmlcov

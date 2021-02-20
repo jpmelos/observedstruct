@@ -1,0 +1,10 @@
+[flake8]
+# FS003: f-string not prefixed (a lot of false-positives)
+# W503: line break before operator (goes against Black)
+# PT019: this won't let us use pytest fixtures that don't inject value as argument
+# E203: whitespace before `:`
+ignore = FS003,W503,PT019,E203
+# flake8-coding
+no-accept-encodings = True
+# flake8-pytest-style
+pytest-fixture-no-parentheses = True
