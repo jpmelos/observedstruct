@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "observedstruct"
-version = "0.1.0-dev"
+version = "0.2.0-dev"
 description = "Observed structures that calls callback functions on changes."
 authors = ["João Sampaio <jpmelos@gmail.com>"]
 license = "MIT"
