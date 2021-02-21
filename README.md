@@ -1,6 +1,6 @@
 # observedstruct
 
-Observed structures that calls your functions on changes.
+Observed structures that call your functions on changes.
 
 ## Install
 
